@@ -6,7 +6,7 @@
 // @description  try to take over the world!
 // @match        https://www.logitycoon.com/eu1/index.php?a=trips*
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/Trips.js
+// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/Trips.js
 // @require      https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/shared/Utils.js
 // ==/UserScript==
 

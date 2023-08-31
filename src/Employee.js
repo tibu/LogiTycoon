@@ -7,7 +7,7 @@
 // @match        https://www.logitycoon.com/eu1/index.php?a=employees_select&e=*
 // @match        https://www.logitycoon.com/eu1/index.php?a=employees_sleep&e=*
 // @grant        GM_log
-// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/Employee.js
+// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/Employee.js
 // ==/UserScript==
 
 (function () {

@@ -6,7 +6,7 @@
 // @description  try to take over the world!
 // @match        https://www.logitycoon.com/eu1/index.php?a=garage
 // @grant GM_log
-// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/Garage.js
+// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/Garage.js
 // @require      https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/shared/Utils.js
 // ==/UserScript==
 

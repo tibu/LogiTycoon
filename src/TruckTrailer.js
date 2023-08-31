@@ -8,7 +8,7 @@
 // @match        https://www.logitycoon.com/eu1/index.php?a=garage_trailer&t=*
 // @match        https://www.logitycoon.com/eu1/index.php?a=garage_truck_ftlock
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/TruckTrailer.js
+// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/TruckTrailer.js
 // ==/UserScript==
 
 (function() {

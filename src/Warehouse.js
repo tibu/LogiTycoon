@@ -6,7 +6,7 @@
 // @description  try to take over the world!
 // @match        https://www.logitycoon.com/eu1/index.php?a=warehouse
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/Warehouse.js
+// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/Warehouse.js
 // @require      https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/shared/Utils.js
 // ==/UserScript==
 

@@ -6,7 +6,7 @@
 // @description  try to take over the world!
 // @match        https://www.logitycoon.com/eu1/index.php?a=employees
 // @grant        GM_log
-// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/Employees.js
+// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/Employees.js
 // ==/UserScript==
 
 (function () {

@@ -6,7 +6,7 @@
 // @description  try to take over the world!
 // @match        https://www.logitycoon.com/eu1/index.php?a=fuelstation*
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/FuelStation.js
+// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/FuelStation.js
 // ==/UserScript==
 
 (function() {
