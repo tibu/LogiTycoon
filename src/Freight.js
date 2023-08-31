@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Freight
-// @namespace    https://github.com/CheatGaming/LogiTycoon/
+// @namespace    https://github.com/tibu/LogiTycoon/
 // @author       TransportScripts
 // @version      0.9
 // @description  try to take over the world!
 // @match        https://www.logitycoon.com/eu1/index.php?a=freight&n=*
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/CheatGaming/LogiTycoon/main/Freight.js
-// @require      https://raw.githubusercontent.com/CheatGaming/LogiTycoon/main/src/shared/Utils.js
+// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/Freight.js
+// @require      https://raw.githubusercontent.com/tibu/LogiTycoon/main/src/shared/Utils.js
 // ==/UserScript==
 
 (function() {
