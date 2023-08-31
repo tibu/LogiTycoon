@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Employees
-// @namespace    https://github.com/CheatGaming/LogiTycoon/
+// @namespace    https://github.com/tibu/LogiTycoon/
 // @author       TransportScripts
 // @version      0.1
 // @description  try to take over the world!
 // @match        https://www.logitycoon.com/eu1/index.php?a=employees
 // @grant        GM_log
-// @downloadURL  https://raw.githubusercontent.com/CheatGaming/LogiTycoon/main/Employees.js
+// @downloadURL  https://raw.githubusercontent.com/tibu/LogiTycoon/main/Employees.js
 // ==/UserScript==
 
 (function () {
