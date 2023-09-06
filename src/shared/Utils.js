@@ -101,7 +101,7 @@
     GoTo: GoTo(),
     Open: Open(),
     Status: status,
-    Log: Log()
+    Log: Log
   };
   
   Init();
