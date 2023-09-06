@@ -13,6 +13,7 @@
     'use strict';
 
     function Refuel() {
+        setTimeout(10000);  // wait for debugging
         $('button[onclick*=refuelft]').click();
         setTimeout(50);
         $('button[onclick*=refuelfc]').click();
@@ -20,6 +21,7 @@
         $('button[onclick*=refuel]').click();
     }
 
-    setTimeout("location.reload(true);", 15000);
+    //removed for programming
+    //setTimeout("location.reload(true);", 15000);
     Refuel();
 })();

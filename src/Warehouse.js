@@ -2,7 +2,7 @@
 // @name         Warehouse
 // @namespace    https://github.com/tibu/LogiTycoon/
 // @author       CheatGaming
-// @version      0.12
+// @version      0.13
 // @description  try to take over the world!
 // @match        https://www.logitycoon.com/eu1/index.php?a=warehouse
 // @grant        none
@@ -19,6 +19,7 @@
 
         let freight = freights.find(f => f.needsAction);
 
+        // open all trips which need action
         if(!!freight && freight.needsAction) {
             Utils.GoTo.freight(freight.id);
         }
@@ -30,6 +31,8 @@
                 }
             }, 500);
         } else {
+            // removed during debugging
+            // TODO - set back
             Utils.Refresh(10000);
         }
     }
@@ -41,11 +44,14 @@
         let trailerStatuses = '|Trailers - Available|Trailer - Selected|';
         let employeeStatuses = '|Employees - Available|Employees - Selected|Managers - Available|Manager - Selected|Employees - All in use|';
 
+        // check all Trips
+
         $('tbody>tr').each((i,e) => {
             let tr = $(e);
             let tds = tr.find('td');
+            console.log(tds);
             let status = {
-                status: tds[2].innerText.trim()
+                status: tds[5].innerText.trim()
             };
 
             let offset = 0;
@@ -53,14 +59,16 @@
                 offset = 1;
             }
 
-            status.from = tds[4+offset].innerText.trim();
-            status.to = tds[5+offset].innerText.trim();
-            status.truckStatus = $(tds[8+offset]).find('i').attr('title');
-            status.trailerStatus = $(tds[9+offset]).find('i').attr('title');
-            status.employeeStatus = $(tds[10+offset]).find('i').attr('title');
+            status.from = tds[7+offset].innerText.trim();
+            status.to = tds[8+offset].innerText.trim();
+            status.truckStatus = $(tds[11+offset]).find('i').attr('title');
+            status.trailerStatus = $(tds[12+offset]).find('i').attr('title');
+            status.employeeStatus = $(tds[13+offset]).find('i').attr('title');
             status.id = $(e).attr('onclick').split("=")[3].split("'")[0];
             status.needsAction = actions.includes(status.status);
 
+
+            // if truck, trailer and employee are ready, let's do somethings
             if(!!status.truckStatus && status.needsAction && status.status !== 'Accepted'){
                 status.needsAction = status.needsAction & truckStatuses.includes(status.truckStatus.trim());
             }
@@ -76,6 +84,7 @@
     }
 
     GetStatus();
+    console.log("Freights",freights);
     Process();
 
 })();
