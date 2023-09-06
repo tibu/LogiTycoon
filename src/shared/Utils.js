@@ -11,6 +11,10 @@
     initiated: false
   };
 
+  function Log(a) {
+    console.log("[LOGITYCOON] ",a);
+  }
+
   function Open() {
     return {
       warehouse: () => OpenWindow(warehouseUrl),
