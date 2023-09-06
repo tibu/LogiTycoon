@@ -100,7 +100,8 @@
     Refresh: Refresh,
     GoTo: GoTo(),
     Open: Open(),
-    Status: status
+    Status: status,
+    Log: Log()
   };
   
   Init();
